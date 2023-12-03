@@ -1,0 +1,142 @@
+.main, .chat {
+    background: url(../images/main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.maintop {
+    background: url(../images/maintop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background: url(../images/header_backgr.jpg);
+}
+
+.header-text {
+    width: 1000px;
+    padding: 15px;
+    text-align: center;
+}
+
+.chat {
+    background: rgb(41, 53, 116);
+}
+
+nav {
+    background: rgb(131, 147, 241);
+    padding: 10px;
+}
+
+
+footer {
+    color: rgba(226, 105, 235, 0.815);
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    width: 500px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    padding: 5px 110px;
+    border-radius: 20px;
+    transition: 1s;
+    display: flexbox;
+    justify-content: space-between;
+
+}
+
+nav a:hover {
+    background: rgb(124, 89, 219);
+    color: azure;
+}
+
+#container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgba(101, 151, 245, 0.4);
+    padding: 10px;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(51, 48, 42);
+    text-align: center;
+    font-family:'Arial', sans-serif;
+}
+
+h2 {
+    color: rgb(19, 5, 68);
+    text-align: center;
+    background-color: rgb(236, 182, 225, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    color: rgba(40, 5, 138, 0.932);
+    background-color: rgba(99, 99, 236, 0.5);
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+p {
+    color: black;
+    text-align: left;
+    background-color: rgba(245, 201, 236, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.top10 {
+    background-color: rgb(123, 144, 182, 0.4);
+    font-size: 16px;
+    padding: 15px;
+    margin-bottom: 5px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 14px;
+}
+a {
+    color: rgb(5, 5, 5);
+    padding: 7px;
+
+}
+button {
+    background-color: rgb(231, 156, 43);
+    color:rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+}
+
+input {
+    background-color: rgb(228, 226, 110);
+    padding: 10px 20px;
+    border: none;
+}
+
+#error {
+    color: rgb(128, 6, 6);
+}

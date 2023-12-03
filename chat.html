@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Чат</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/chat.js"></script>
+</head>
+<body class ="chat">
+    <div id ="container">
+        <header>
+            <div class = "header-text">
+                <h1>Мир аниме</h1>
+            </div>
+        </header>
+        <hr>
+        <nav>
+            <a href="./task site.html">Главная</a>
+            <a href="./top10.html">Топ 10 аниме всех времен</a>
+            <a href="./chat.html">Чат</a>
+        </nav>
+        <main>
+            <h2>Здесь вы можете поделиться своим мнением</h2>
+            <input type="text" placeholder="Введите имя" id = 'name'>
+            <input type="text" placeholder="Введите текст" id = 'message'>
+            <button onclick="send()">Отправить</button>
+            <div id = 'names'></div>
+            <div id = 'messages'></div>
+            <div id = 'error'></div>
+            <hr>
+            <nav>
+                <a href="https://blog.okko.tv/selections/daj-mne-nezhnost-10-luchshikh-anime-pro-lyubov" target="_blank">Топ 10 аниме в жанре романтика</a>
+                <a href="./contacts.html">Контакты</a>
+            </nav>
+        </main>
+        <footer>(c)2023 Аниме</footer>
+        <script>hello()</script>
+    </div>
+</body>
+</html>
